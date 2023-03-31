@@ -6,7 +6,7 @@ export default class TextComponent extends Component {
     return (
       <div className='text-component'>
         <h3>PREVIEW</h3>
-        <h1>Gabriell Essence Eau De Parfum</h1>
+        <h1>Gabrielle <br/> Essence Eau <br/> De Parfum</h1>
         <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
   Perfumer-Creator for the House of CHANEL.</p>
         <div className='price'>
