@@ -6,6 +6,7 @@
     --very-dark-blue: #1c232b;
     --dark-grayish-blue: #6c7289;
     --white: #ffffff;
+    --font-sans: 'Montserrat', sans-serif;
 }
 
 body {
@@ -34,7 +35,7 @@ p {
     width: 40rem;
     border-radius: 1rem;
     overflow: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-sans);
 
 }
 
@@ -64,7 +65,7 @@ button {
     border-radius: .5rem;
     cursor: pointer;
     color: var(--white);
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-sans);
 }
 
 .cart {
